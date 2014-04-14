@@ -1,0 +1,260 @@
+{
+    "name": "mySite/mySite",
+    "description": "mySite",
+    "repositories": {
+        "ctools": {
+            "type": "package",
+            "package": {
+                "name": "modules/ctools",
+                "version": "1.4",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/ctools-7.x-1.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "date": {
+            "type": "package",
+            "package": {
+                "name": "modules/date",
+                "version": "2.7",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/date-7.x-2.7.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "devel": {
+            "type": "package",
+            "package": {
+                "name": "modules/devel",
+                "version": "1.4",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/devel-7.x-1.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "entity": {
+            "type": "package",
+            "package": {
+                "name": "modules/entity",
+                "version": "1.5",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/entity-7.x-1.5.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "field_collection": {
+            "type": "package",
+            "package": {
+                "name": "modules/field_collection",
+                "version": "1.0-beta7",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/field_collection-7.x-1.0-beta7.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "field_group": {
+            "type": "package",
+            "package": {
+                "name": "modules/field_group",
+                "version": "1.3",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/field_group-7.x-1.3.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "google_analytics": {
+            "type": "package",
+            "package": {
+                "name": "modules/google_analytics",
+                "version": "1.4",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/google_analytics-7.x-1.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "i18n": {
+            "type": "package",
+            "package": {
+                "name": "modules/i18n",
+                "version": "1.10",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/i18n-7.x-1.10.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "link": {
+            "type": "package",
+            "package": {
+                "name": "modules/link",
+                "version": "1.2",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/link-7.x-1.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "pathauto": {
+            "type": "package",
+            "package": {
+                "name": "modules/pathauto",
+                "version": "1.2",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/pathauto-7.x-1.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "references": {
+            "type": "package",
+            "package": {
+                "name": "modules/references",
+                "version": "2.1",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/references-7.x-2.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "token": {
+            "type": "package",
+            "package": {
+                "name": "modules/token",
+                "version": "1.5",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/token-7.x-1.5.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "variable": {
+            "type": "package",
+            "package": {
+                "name": "modules/variable",
+                "version": "2.4",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/variable-7.x-2.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "webform": {
+            "type": "package",
+            "package": {
+                "name": "modules/webform",
+                "version": "3.20",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/webform-7.x-3.20.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "wysiwyg": {
+            "type": "package",
+            "package": {
+                "name": "modules/wysiwyg",
+                "version": "2.2",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/wysiwyg-7.x-2.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "xmlsitemap": {
+            "type": "package",
+            "package": {
+                "name": "modules/xmlsitemap",
+                "version": "2.0",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/xmlsitemap-7.x-2.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "features": {
+            "type": "package",
+            "package": {
+                "name": "modules/features",
+                "version": "2.0",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/features-7.x-2.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "jquery_update": {
+            "type": "package",
+            "package": {
+                "name": "modules/jquery_update",
+                "version": "2.4",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/jquery_update-7.x-2.4.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "bootstrap": {
+            "type": "package",
+            "package": {
+                "name": "themes/bootstrap",
+                "version": "3.0",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/bootstrap-7.x-3.0.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "modules/ctools": "*",
+        "modules/date": "*",
+        "modules/devel": "*",
+        "modules/entity": "*",
+        "modules/field_collection": "*",
+        "modules/field_group": "*",
+        "modules/google_analytics": "*",
+        "modules/i18n": "*",
+        "modules/link": "*",
+        "modules/pathauto": "*",
+        "modules/references": "*",
+        "modules/token": "*",
+        "modules/variable": "*",
+        "modules/webform": "*",
+        "modules/wysiwyg": "*",
+        "modules/xmlsitemap": "*",
+        "modules/features": "*",
+        "modules/jquery_update": "*",
+        "themes/bootstrap": "*"
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "drush make install.make --yes"
+        ],
+        "post-install-cmd": [
+            "php -f drupal-fuse-install.php",
+            "drush site-install standard --account-name=admin --account-pass=admin --db-url=mysql://root:root@localhost/test --yes",
+            "drush pm-enable jquery_update ctools date date_api devel entity field_collection field_group googleanalytics* i18n* link* pathauto* references node_reference user_reference token* variable variable_admin variable_realm variable_store webform* wysiwyg* xmlsitemap* --yes",
+            "drush pm-disable overlay --yes",
+            "drush cc all --yes",
+            "drush site pm-enable themefuse --yes",
+            "drush vset theme_default themefuse --yes",
+            "drush site pm-disable bartik --yes",
+            "drush site pm-disable seven --yes"
+        ],
+        "post-update-cmd": [
+            "drush pm-enable jquery_update ctools date date_api devel entity field_collection field_group googleanalytics* i18n* link* pathauto* references node_reference user_reference token* variable variable_admin variable_realm variable_store webform* wysiwyg* xmlsitemap* --yes"
+        ]
+    },
+    "config": {
+        "vendor-dir": "var/vendor"
+    },
+    "minimum-stability": "dev"
+}
