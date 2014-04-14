@@ -248,7 +248,6 @@
             "drush vset theme_default themefuse --yes",
             "drush site pm-disable bartik --yes",
             "drush site pm-disable seven --yes",
-            "git submodule update --init --recursive",
             "npm install",
             "bower install",
             "grunt styleguide",
