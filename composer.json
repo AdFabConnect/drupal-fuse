@@ -247,10 +247,19 @@
             "drush site pm-enable themefuse --yes",
             "drush vset theme_default themefuse --yes",
             "drush site pm-disable bartik --yes",
-            "drush site pm-disable seven --yes"
+            "drush site pm-disable seven --yes",
+            "git submodule update --init --recursive",
+            "npm install",
+            "bower install",
+            "grunt styleguide",
+            "grunt less"
         ],
         "post-update-cmd": [
-            "drush pm-enable jquery_update ctools date date_api devel entity field_collection field_group googleanalytics* i18n* link* pathauto* references node_reference user_reference token* variable variable_admin variable_realm variable_store webform* wysiwyg* xmlsitemap* --yes"
+            "drush pm-enable jquery_update ctools date date_api devel entity field_collection field_group googleanalytics* i18n* link* pathauto* references node_reference user_reference token* variable variable_admin variable_realm variable_store webform* wysiwyg* xmlsitemap* --yes",
+            "npm update",
+            "bower install",
+            "grunt styleguide",
+            "grunt less"
         ]
     },
     "config": {
