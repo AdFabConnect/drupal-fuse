@@ -10,6 +10,10 @@ Clone the repository
 
 ```
 git clone https://github.com/AdFabConnect/drupal-fuse.git my-project
+
+cd my-project
+
+git submodule update --init --recursive
 ```
 
 Edit files :
@@ -41,7 +45,5 @@ $siteTheme = 'themefuse';
 Install with composer
 
 ```
-cd my-project
-
 composer install
 ```
