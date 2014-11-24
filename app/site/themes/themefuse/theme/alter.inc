@@ -9,7 +9,7 @@
 /**
  * Implements hook_js_alter() to remove default bootstrap.js
  */
-function drupalStarterTheme_js_alter(&$js) {
+function themefuse_js_alter(&$js) {
 	// unset default jquery drupal
 	unset($js["misc/jquery.js"]);
 	// unset default bootstrap
